@@ -1,0 +1,9 @@
+import = ["/Users/leo/.config/alacritty/key-bindings.toml"]
+startup_mode = "Fullscreen"
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
