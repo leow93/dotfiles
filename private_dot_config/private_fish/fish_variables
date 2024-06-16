@@ -9,9 +9,9 @@ SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/Users/leowheelan/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/Users/leowheelan/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/Users/leowheelan\x24
+SETUVAR Z_DATA:/Users/leo/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/Users/leo/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/Users/leo\x24
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_blackjid_2F_plugin_2D_kubectl_files:\x7e/\x2econfig/fish/functions/__kubectl\x2edestroy\x2efish\x1e\x7e/\x2econfig/fish/functions/__kubectl\x2einit\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/kubectl\x2efish
 SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
