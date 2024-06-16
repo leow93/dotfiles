@@ -9,7 +9,7 @@ set fish_user_paths = "./node_modules/.bin"
 fish_add_path /opt/homebrew/opt/libpq/bin
 
 # Add rust tooling to path
-fish_add_path "/Users/leowheelan/.cargo/bin"
+fish_add_path "/Users/leo/.cargo/bin"
 
 # Add golang tooling to path
 set -gx GOPATH "$HOME/go"
@@ -23,6 +23,6 @@ starship init fish | source
 [ -f .nvmrc ] && nvm use
 
 # pnpm
-set -gx PNPM_HOME /Users/leowheelan/Library/pnpm
+set -gx PNPM_HOME /Users/leo/Library/pnpm
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
