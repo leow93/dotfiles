@@ -1,9 +1,5 @@
 import = ["/Users/leo/.config/alacritty/key-bindings.toml"]
 
-[shell]
-program = "/opt/homebrew/bin/fish"
-args = ["-l"]
-
 [font]
 size = 13.0
 
