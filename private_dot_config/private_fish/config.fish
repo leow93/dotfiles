@@ -28,3 +28,5 @@ starship init fish | source
 set -gx PNPM_HOME /Users/$me/Library/pnpm
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
