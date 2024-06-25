@@ -29,4 +29,4 @@ set -gx PNPM_HOME /Users/$me/Library/pnpm
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
 
-eval "$(brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
