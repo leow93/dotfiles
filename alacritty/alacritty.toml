@@ -1,0 +1,13 @@
+import = [
+ # "~/.config/alacritty/key-bindings.toml", 
+ # "~/.config/alacritty/themes/rose-pine.toml"
+"~/.config/alacritty/themes/dracula.toml"
+]
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
