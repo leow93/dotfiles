@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 7f0a6fff249ed2505c1a0fcb7676b9bfd5b2cca1 leow93 <leowheelan@hotmail.co.uk> 1702196718 +0000	clone: from https://github.com/leow93/nvim.git
-7f0a6fff249ed2505c1a0fcb7676b9bfd5b2cca1 77d2a451daf7828482daf5a33fb272f71d5d77d8 leow93 <leowheelan@hotmail.co.uk> 1705003832 +0000	commit: chore: add some things to treesitter
-77d2a451daf7828482daf5a33fb272f71d5d77d8 6466fadb878b69b02e357d30a1e6ceea8bd2aebd leow93 <leowheelan@hotmail.co.uk> 1716883116 +0100	commit: feat: updates
-6466fadb878b69b02e357d30a1e6ceea8bd2aebd de51475c2230205fa39c5b434c165b5b7028a2c3 leow93 <leowheelan@hotmail.co.uk> 1716883122 +0100	commit (amend): chore: updates
