@@ -31,3 +31,6 @@ set -gx PATH "$PNPM_HOME" $PATH
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+
+# Created by `pipx` on 2024-07-01 15:44:46
+set PATH $PATH /Users/leo.wheelan/.local/bin
