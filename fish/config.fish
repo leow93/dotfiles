@@ -7,6 +7,15 @@ set me (whoami)
 # Add node_modules to path
 set fish_user_paths = "./node_modules/.bin"
 
+# Add JetBrains tools to path
+fish_add_path "/Users/$me/Library/Application Support/JetBrains/Toolbox/scripts/"
+
+# Add rvm tools to path
+fish_add_path "/Users/$me/.rvm/scripts"
+
+# Add rbenv tools to path
+fish_add_path "/Users/$me/.rbenv/bin"
+
 # Add libpq (psql) to path
 fish_add_path /opt/homebrew/opt/libpq/bin
 
@@ -34,3 +43,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Created by `pipx` on 2024-07-01 15:44:46
 set PATH $PATH /Users/leo.wheelan/.local/bin
+
+# Added by `rbenv init` on Thu 18 Jul 2024 10:46:57 BST
+status --is-interactive; and rbenv init - --no-rehash fish | source
