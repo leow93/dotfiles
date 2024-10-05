@@ -1,0 +1,1 @@
+/Users/leo.wheelan/.asdf/completions/asdf.fish

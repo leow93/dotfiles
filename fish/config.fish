@@ -44,10 +44,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Created by `pipx` on 2024-07-01 15:44:46
 set PATH $PATH /Users/leo.wheelan/.local/bin
 
-# Added by `rbenv init` on Thu 18 Jul 2024 10:46:57 BST
-status --is-interactive; and rbenv init - --no-rehash fish | source
-
 # asdf 
 # https://asdf-vm.com/guide/getting-started.html
 source ~/.asdf/asdf.fish
 # mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions
+
+pyenv init - | source
