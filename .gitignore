@@ -2,6 +2,9 @@ AWSVPNClient
 AWS VPN Client
 gh
 fish/fish_variables
+fish/functions
+fish/completions
+fish/conf.d
 1Password
 exercism
 todo

@@ -22,6 +22,8 @@ fish_add_path /opt/homebrew/opt/libpq/bin
 # Add rust tooling to path
 fish_add_path "/Users/$me/.cargo/bin"
 
+fish_add_path /usr/local/bin
+
 # Add golang tooling to path
 set -gx GOPATH "$HOME/go"
 fish_add_path fish_add_path "$GOPATH/bin"
@@ -43,10 +45,3 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Created by `pipx` on 2024-07-01 15:44:46
 set PATH $PATH /Users/leo.wheelan/.local/bin
-
-# asdf 
-# https://asdf-vm.com/guide/getting-started.html
-source ~/.asdf/asdf.fish
-# mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions
-
-pyenv init - | source

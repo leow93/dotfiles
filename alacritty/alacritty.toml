@@ -1,9 +1,7 @@
-import = [
- # "~/.config/alacritty/key-bindings.toml", 
- # "~/.config/alacritty/themes/rose-pine.toml"
-"~/.config/alacritty/themes/dracula.toml"
-]
+general.import = ["~/.config/alacritty/themes/dracula.toml"]
 
+# "~/.config/alacritty/key-bindings.toml", 
+# "~/.config/alacritty/themes/rose-pine.toml"
 [font]
 size = 15.0
 
@@ -11,3 +9,6 @@ size = 15.0
 family = "FiraCode Nerd Font"
 style = "Regular"
 
+
+[terminal]
+shell = "/opt/homebrew/bin/fish"
