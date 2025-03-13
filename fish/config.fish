@@ -10,12 +10,6 @@ set fish_user_paths = "./node_modules/.bin"
 # Add JetBrains tools to path
 fish_add_path "/Users/$me/Library/Application Support/JetBrains/Toolbox/scripts/"
 
-# Add rvm tools to path
-fish_add_path "/Users/$me/.rvm/scripts"
-
-# Add rbenv tools to path
-fish_add_path "/Users/$me/.rbenv/bin"
-
 # Add libpq (psql) to path
 fish_add_path /opt/homebrew/opt/libpq/bin
 
@@ -25,8 +19,7 @@ fish_add_path "/Users/$me/.cargo/bin"
 fish_add_path /usr/local/bin
 
 # Add golang tooling to path
-set -gx GOPATH "$HOME/go"
-fish_add_path fish_add_path "$GOPATH/bin"
+fish_add_path /usr/local/go/bin/
 
 # Add a 
 set -Ux EDITOR nvim
@@ -41,3 +34,5 @@ set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+alias assume="source (brew --prefix)/bin/assume.fish"
