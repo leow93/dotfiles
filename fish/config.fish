@@ -20,6 +20,13 @@ fish_add_path /usr/local/bin
 
 # Add golang tooling to path
 fish_add_path /usr/local/go/bin/
+fish_add_path "/Users/$me/go/bin"
+
+# Add openjdk 
+fish_add_path /opt/homebrew/opt/openjdk/bin
+
+# Add personal todo helper 
+fish_add_path "/Users/$me/.config/todo"
 
 # Add a 
 set -Ux EDITOR nvim
