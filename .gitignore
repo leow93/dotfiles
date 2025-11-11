@@ -1,10 +1,13 @@
-AWSVPNClient
-AWS VPN Client
-gh
+*
+
+!alacritty
+!fish
 fish/fish_variables
 fish/functions
 fish/completions
 fish/conf.d
-1Password
-exercism
-todo
+!nvim
+!tmux 
+!zellij
+!starship.toml
+
