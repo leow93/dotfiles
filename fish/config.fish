@@ -1,38 +1,31 @@
+
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    starship init fish | source
 end
 
 set me (whoami)
-
-# Add node_modules to path
-set fish_user_paths = "./node_modules/.bin"
-
-# Add JetBrains tools to path
-fish_add_path "/Users/$me/Library/Application Support/JetBrains/Toolbox/scripts/"
-
-# Add libpq (psql) to path
-fish_add_path /opt/homebrew/opt/libpq/bin
-
-# Add rust tooling to path
-fish_add_path "/Users/$me/.cargo/bin"
-
-fish_add_path /usr/local/bin
-
-# Add golang tooling to path
-fish_add_path /usr/local/go/bin/
-fish_add_path "/Users/$me/go/bin"
-
 set -Ux EDITOR nvim
 
-starship init fish | source
-
-[ -f .nvmrc ] && nvm use
+# PATH configuration
+set fish_user_paths "./node_modules/.bin" $fish_user_paths
+fish_add_path /opt/homebrew/opt/libpq/bin
+fish_add_path "/Users/$me/Library/Application Support/JetBrains/Toolbox/scripts/"
+fish_add_path "/Users/$me/.cargo/bin"
+fish_add_path /usr/local/bin
+fish_add_path /usr/local/go/bin
+fish_add_path "/Users/$me/go/bin"
+fish_add_path /usr/local/share/dotnet
+fish_add_path "/Users/$me/.local/bin"
 
 # pnpm
-set -gx PNPM_HOME /Users/$me/Library/pnpm
+set -gx PNPM_HOME "/Users/$me/Library/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
-# pnpm end
 
+# Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Node version management
+[ -f .nvmrc ] && nvm use
+
+# Aliases
 alias assume="source (brew --prefix)/bin/assume.fish"
